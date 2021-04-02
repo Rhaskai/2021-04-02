@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+}
+main{
+    background-color: white;
+}
+.pubg{
+    display: inline;
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+label{
+    margin-right: 1rem;
+    color: rgb(150, 150, 150);
+}
+label:hover, .buy:hover{
+        color: white;
+}
+.label1{
+    font-size: 1rem;
+}
+.label2{
+    font-size: 1rem;
+    color: rgb(200, 170, 0);
+}
+.label3{
+    font-size: 1rem;
+}
+.login{
+    position: relative;
+    left: 38%;
+}
+.earth{
+    position: relative;
+    left:38%
+}
+.login::before{
+    content: "*-*";
+}
+.earth::before{
+    content: "◎";
+}
+.buy{
+    position: relative;
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-size: 0.95rem;
+    left: 38%;
+    width: 7rem;
+    height: 3.5rem;
+    text-align: center;
+    background-color: rgb(143, 86, 0);
+    border: 0px solid black;
+}
+.title{
+    position: relative;
+    color: white;
+    font-size: 2.3rem;
+    left: 0%;
+    top: 0%;
+    background-image: url(./13.jpg);
+    background-size: 100%;
+    background-position-y: -10rem;
+    background-repeat: no-repeat;
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+    width: 100%;
+    height: 30rem;
+}
+.name{
+    position: relative;
+    color: white;
+    left: 13%;
+    top: 35%;
+}
+.filer{
+    position: relative;
+    background-color: rgb(200, 150, 0);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 2.5rem;
+    width: 10rem;
+    color: white;
+    font-size: 1rem;
+    border: 0px solid rgba(0,0,0,0);
+    top: 50%;
+    left: -10%;
+}
+.filer:hover{
+    background-color: rgb(200, 130, 0);
+    box-shadow: 5px, 5px, 5px, gray;
+}
+.past{
+    position: relative;
+    color: white;
+    font-size: 2.3rem;
+    left: 0%;
+    top: 0%;
+    background-image: url(./7-Valentines-Day-themed-skins.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -2rem;
+    width: 49.75%;
+    height: 26rem;
+}
+.pastnote{
+    position: relative;
+    color: white;
+    left: 10%;
+    top: 10%;
+}
+.year{
+    position: relative;
+    color: white;
+    font-size: 2.3rem;
+    left: 50.25%;
+    top: 0%;
+    background-image: url(./bannerbig-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -30.1%;
+    width: 49.75%;
+    height: 26rem;
+}
+.ysw{
+    position: relative;
+    color: white;
+    left: 10%;
+    top: 10%;
+}
